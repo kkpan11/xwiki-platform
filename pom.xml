@@ -50,7 +50,7 @@
     <platform.version>${commons.version}</platform.version>
 
     <!-- Dependencies versions -->
-    <batik.version>1.17</batik.version>
+    <batik.version>1.18</batik.version>
     <restlet.version>2.3.12</restlet.version>
     <tika.version>2.9.2</tika.version>
     <pdfbox.version>2.0.31</pdfbox.version>
@@ -123,7 +123,7 @@
     <pgsql.version>42.7.4</pgsql.version>
     <oracle.groupId>com.oracle.database.jdbc</oracle.groupId>
     <oracle.artifactId>ojdbc11</oracle.artifactId>
-    <oracle.version>21.11.0.0</oracle.version>
+    <oracle.version>21.15.0.0</oracle.version>
     
     <!-- Versions of Node related tools -->
     <node.version>v20.12.0</node.version>
@@ -697,7 +697,7 @@
       <dependency>
         <groupId>org.apache.xmlgraphics</groupId>
         <artifactId>xmlgraphics-commons</artifactId>
-        <version>2.9</version>
+        <version>2.10</version>
         <exclusions>
           <!-- We want to choose the SLF4J binding only when XWiki is packaged. -->
           <exclusion>
